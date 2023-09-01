@@ -15,7 +15,12 @@ dependencies:
   freezed_annotation: ^2.0.3
   stripe_platform_interface: ^9.6.0
   js: ^0.6.3
-  stripe_js: ^3.2.0
+  
+  stripe_js:
+    git:
+      url: https://github.com/URSFR/flutter_stripe.git
+      ref: main # branch name
+      path: packages/stripe_js
 
 dev_dependencies:
   flutter_test:
