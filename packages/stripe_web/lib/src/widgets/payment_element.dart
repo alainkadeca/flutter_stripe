@@ -88,7 +88,9 @@ class PaymentElementState extends State<PaymentElement> {
         final height = cr.height;
         setState(() {
           this.height = height;
-          _divElement.style.height = '${height}px';
+          _divElement.style.height = '100%';
+          _divElement.style.overflow = "hidden";
+          _divElement.style.margin = "0";
         });
       }
     }
