@@ -98,6 +98,7 @@ const _$SetupIntentFlowDirectionsEnumMap = {
 
 const _$PaymentMethodTypeEnumMap = {
   PaymentMethodType.acssDebit: 'acssDebit',
+  PaymentMethodType.cashapp: 'cashapp',
   PaymentMethodType.affirm: 'affirm',
   PaymentMethodType.afterpayClearpay: 'afterpayClearpay',
   PaymentMethodType.alipay: 'alipay',

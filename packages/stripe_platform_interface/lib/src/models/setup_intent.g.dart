@@ -53,6 +53,7 @@ const _$PaymentMethodTypeEnumMap = {
   PaymentMethodType.AfterpayClearpay: 'AfterpayClearpay',
   PaymentMethodType.Card: 'Card',
   PaymentMethodType.CashAppPay: 'CashAppPay',
+  PaymentMethodType.Cashapp: 'cashapp',
   PaymentMethodType.Alipay: 'Alipay',
   PaymentMethodType.Grabpay: 'Grabpay',
   PaymentMethodType.Ideal: 'Ideal',
